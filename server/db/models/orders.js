@@ -8,8 +8,4 @@ const Order = db.define('order', {
   }
 })
 
-Order.prototype.setAUser = function(user) {
-  return this.setUser(user)
-}
-
 module.exports = Order

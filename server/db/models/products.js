@@ -28,9 +28,4 @@ const Product = db.define('product', {
   }
 })
 
-Product.prototype.changeQuantity = function(orderQuantity) {
-  this.quantity = this.quantity - orderQuantity
-  return this.quantity
-}
-
 module.exports = Product
