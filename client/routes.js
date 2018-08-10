@@ -3,7 +3,7 @@ import {HashRouter, Route, Switch} from 'react-router-dom'
 import Navbar from './components/Navbar'
 import AllProducts from './components/AllProducts'
 
-export default class App extends Component {
+export default class Main extends Component {
   render() {
     return (
       <div id="main" className="container-fluid">
